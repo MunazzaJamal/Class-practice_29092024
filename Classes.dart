@@ -3,8 +3,8 @@ void main() {
   Student student2 = Student('Saima', '13', '3421');
   student1.studentinfo();
   student2.studentinfo();
-  Student spec_student = Student
-      .special(); //related things, assigned because special students can have diff attributes
+  Student spec_student = Student.special();
+  //related things, assigned because special students can have diff attributes
 }
 
 class Student {
